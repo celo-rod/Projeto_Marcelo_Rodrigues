@@ -8,4 +8,7 @@ public class ClasseD{
     public void md2(){
         System.out.println(this.getClass().getSimpleName());
     }
+    public void md3(){
+        System.out.println(this.getClass().getSimpleName());
+    }
 }
