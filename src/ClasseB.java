@@ -1,4 +1,4 @@
-public class ClasseB {
+public class ClasseB{
     private int b1;
     private float b2;
 
@@ -19,6 +19,9 @@ public class ClasseB {
         System.out.println(this.getClass().getSimpleName());
     }
     public void mb2(){
+        System.out.println(this.getClass().getSimpleName());
+    }
+    public void mb3(){
         System.out.println(this.getClass().getSimpleName());
     }
 }
